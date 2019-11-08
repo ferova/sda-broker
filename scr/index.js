@@ -8,7 +8,6 @@ import Logger from './utils/Logger'
 
 const app = express()
 
-config.logger = Logger.new(STDOUT)
 
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
